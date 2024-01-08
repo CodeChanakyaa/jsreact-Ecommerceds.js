@@ -1,0 +1,441 @@
+.products {
+    width: 100%;
+    border-radius: 0px;
+    margin: 8px 16px;
+}
+
+.products .container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 10px;
+}
+
+.products .container .filter {
+    background-color: white;
+    display: flex;
+    /* height: max-content; */
+    flex-direction: column;
+}
+
+.products .container .filter hr {
+    border: 1px solid rgba(235, 235, 235, 0.713);
+}
+
+.products .container .filter h3 {
+    padding: 23px 16px;
+    font-size: 22px;
+    font-weight: 550;
+    background-color: white;
+    margin-bottom: 4px;
+}
+
+.products .container .filter .categories {
+    padding: 22px 16px;
+    background-color: white;
+}
+
+.products .container .filter .categories h5 {
+    background-color: white;
+    color: rgb(50, 50, 50);
+}
+
+.products .container .filter .categories ul {
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.products .container .filter .categories ul li {
+    font-size: 14px;
+    color: rgb(60, 60, 60);
+    line-height: 40px;
+    cursor: pointer;
+    background: white;
+}
+
+.products .container .filter .brands {
+    padding: 22px 16px;
+    background: white;
+}
+
+.products .container .filter .brands h5 {
+    background-color: white;
+    color: rgb(50, 50, 50);
+}
+
+.products .container .filter .brands ul {
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.products .container .filter .brands ul li {
+    font-size: 14px;
+    color: rgb(60, 60, 60);
+    line-height: 40px;
+    cursor: pointer;
+    background: white;
+}
+
+.products .container .filter .price {
+    padding: 22px 16px;
+    background: white;
+}
+
+.products .container .filter .price h5 {
+    background-color: white;
+    color: rgb(50, 50, 50);
+}
+
+.products .container .filter .price input {
+    margin-bottom: 16px;
+    width: 45%;
+    height: 15px;
+    color: rgb(255, 213, 0);
+    background: white;
+    cursor: pointer;
+}
+
+.products .container .filter .price span {
+    margin: 0px 14px;
+    font-size: 14px;
+    font-weight: 500;
+    background: white;
+    color: rgb(60, 60, 60);
+}
+
+.products .container .filter .price ul {
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.products .container .filter .price ul li {
+    font-size: 14px;
+    color: rgb(60, 60, 60);
+    line-height: 40px;
+    cursor: pointer;
+    background: white;
+}
+
+.products .container .filter .colors {
+    padding: 22px 16px;
+    background: white;
+}
+
+.products .container .filter .colors .white {
+    color: rgb(156, 156, 156);
+    background: white;
+}
+
+.products .container .filter .colors .black {
+    color: black;
+    background: white;
+}
+
+.products .container .filter .colors .navy {
+    color: rgb(1, 0, 84);
+    background: white;
+}
+
+.products .container .filter .colors .orange {
+    color: orange;
+    background: white;
+}
+
+.products .container .filter .colors .yellow {
+    color: rgb(255, 213, 0);
+    background: white;
+}
+
+.products .container .filter .colors h5 {
+    background-color: white;
+    color: rgb(50, 50, 50);
+}
+
+.products .container .filter .colors ul {
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.products .container .filter .colors ul li {
+    font-size: 14px;
+    color: rgb(60, 60, 60);
+    line-height: 40px;
+    cursor: pointer;
+    background: white;
+}
+
+.products .container .filter .rating {
+    padding: 22px 16px;
+    background: white;
+}
+
+.products .container .filter .rating h5 {
+    background-color: white;
+    color: rgb(50, 50, 50);
+}
+
+.products .container .filter .rating ul {
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.products .container .filter .rating ul li {
+    font-size: 14px;
+    color: rgb(60, 60, 60);
+    line-height: 40px;
+    cursor: pointer;
+    background: white;
+}
+
+.products .container .filter .discount {
+    padding: 22px 16px;
+    background: white;
+}
+
+.products .container .filter .discount h5 {
+    background-color: white;
+    color: rgb(50, 50, 50);
+}
+
+.products .container .filter .discount ul {
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.products .container .filter .clear {
+    padding: 22px 32px;
+    background: white;
+}
+
+.products .container .filter .clear button {
+    margin-left: 0;
+    background-color: rgb(11, 0, 40);
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 8px 10px;
+}
+
+.products .container .filter .discount ul li {
+    font-size: 14px;
+    color: rgb(60, 60, 60);
+    line-height: 40px;
+    cursor: pointer;
+    background: white;
+}
+
+.products .container .product-box {
+    width: 97.5%;
+    height: 100%;
+    background: white;
+}
+
+.products .container .product-box .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 27px;
+    font-size: 28px;
+    font-weight: 500;
+    background: white;
+}
+
+.products .container .product-box .top .heading {
+    background: white;
+}
+
+.products .container .product-box .top .heading span {
+    font-size: large;
+    background: white;
+    color: gray;
+}
+
+.products .container .product-box .top .heading .h4 {
+    font-size: x-large;
+    font-weight: 550;
+    color: black;
+    background: white;
+}
+
+.products .container .product-box .top .sort {
+    background-color: white;
+}
+
+.products .container .product-box .top .sort label {
+    font-size: large;
+    font-weight: 550;
+    background-color: white;
+}
+
+.products .container .product-box .top .sort select {
+    appearance: none;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: 550;
+    padding: 4px 4px 4px 2px;
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background: white;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+}
+
+.products .container .product-box .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 0px 16px 16px;
+    background: white;
+}
+
+.products .container .product-box .wrap a {
+    text-decoration: none;
+    background: white;
+    color: black;
+}
+
+.products .container .product-box .wrap .product {
+    background-color: white;
+    border: 0.5px solid rgba(199, 199, 199, 0.713);
+    border-radius: 5px;
+    padding: 24px;
+    margin: 10px 10px 10px 7px;
+    width: 172px;
+    height: 228px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.products .container .product-box .wrap .product .navigate {
+    background: white;
+}
+
+.products .container .product-box .wrap .product .image {
+    height: 165px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 2px;
+}
+
+.products .container .product-box .wrap .product .image img {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: white;
+}
+
+.products .container .product-box .wrap .product .text {
+    background-color: white;
+}
+
+.products .container .product-box .wrap .product .text .title {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.products .container .product-box .wrap .product .text .rating {
+    margin: 3px 0;
+    background-color: rgba(2, 135, 2, 0.778);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 1px 3px;
+    width: max-content;
+    height: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.products .container .product-box .wrap .product .text .rating .star {
+    background: transparent;
+    margin-left: 2px;
+}
+
+.products .container .product-box .wrap .product .text .price {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+}
+
+.products .container .product-box .wrap .product .text .discount {
+    font-family: sans-serif;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: white;
+    color: rgb(0, 129, 0);
+}
+
+.products .container .product-box .wrap .product .text .p {
+    margin: 2px 0;
+    background: white;
+}
+
+.products .container .product-box .wrap .product .icon {
+    z-index: 1;
+    position: relative;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    bottom: -14px;
+    transition: 0.5s;
+}
+
+.products .container .product-box .wrap .product:hover .icon {
+    transform: translateY(-44px);
+}
+
+.products .container .product-box .wrap .product .icon a {
+    background: white;
+    color: rgba(167, 164, 164, 0.814);
+}
+
+.products .container .product-box .wrap .product .icon a:hover {
+    cursor: pointer;
+    color: rgb(167, 164, 164);
+}
+
+.products .container .product-box .wrap .product .icon li {
+    list-style: none;
+    padding: 10px 10px 5px 10px;
+    margin: 0 5px;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: white;
+    color: rgba(167, 164, 164, 0.814);
+    transition: 0.2s;
+}
+
+.products .container .product-box .wrap .product .icon li:hover {
+    cursor: pointer;
+    color: rgb(167, 164, 164);
+}

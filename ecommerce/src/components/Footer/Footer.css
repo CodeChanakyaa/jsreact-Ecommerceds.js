@@ -1,0 +1,157 @@
+.footer {
+    padding: 30px 40px;
+    width: 100%;
+    background-color: rgb(17, 1, 27);
+    color: white;
+}
+
+.footer h3 {
+    font-size: 25px;
+    color: gray;
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .f-icon {
+    padding: 8px;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .f-icon:hover {
+    background-color: white;
+}
+
+.footer .f-link {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .container {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .container .about {
+    max-width: 23%;
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .container .about .logo {
+    font-weight: 700;
+}
+
+.footer .container .about .logo p {
+    font-size: 27px;
+    color: gray;
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .container .about .detail p {
+    margin: 15px 0;
+    font-size: 16px;
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .container .about .detail {
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .container .about .detail .icon {
+    margin-top: 20px;
+    display: flex;
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .container .about .detail .icon li {
+    margin-right: 20px;
+    list-style: none;
+    /* padding: 8px 10px 4px 10px; */
+    /* border-radius: 5px; */
+    cursor: pointer;
+    font-size: 22px;
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .container .about .detail .icon li:hover {
+    /* background-color: white; */
+    color: rgb(255, 213, 0);
+}
+
+.footer .container .page {
+    margin-right: 100px;
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .container .page h3 {
+    font-size: 25px;
+}
+
+.footer .container .page ul {
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .container .page ul li {
+    margin: 10px 0;
+    font-size: 16px;
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .container .page ul li:hover {
+    color: rgb(255, 195, 0);
+}
+
+.footer .container .policy {
+    margin-right: 100px;
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .container .policy h3 {
+    font-size: 25px;
+}
+
+.footer .container .policy ul {
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .container .policy ul li {
+    margin: 10px 0;
+    font-size: 16px;
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .container .policy ul li:hover {
+    color: rgb(255, 195, 0);
+}
+
+.footer .container .help {
+    margin-right: 100px;
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .container .help h3 {
+    font-size: 25px;
+}
+
+.footer .container .help ul {
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .container .help ul li {
+    margin: 10px 0;
+    font-size: 16px;
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: rgb(17, 1, 27);
+}
+
+.footer .container .help ul li:hover {
+    color: rgb(255, 195, 0);
+}
