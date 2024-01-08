@@ -4,7 +4,7 @@
       { "src": "/product", "dest": "/" },
       { "src": "/about", "dest": "/" },
       { "src": "/contact", "dest": "/" },
-      { "src": "/detail/:id*", "dest": "/" },
+      { "src": "/detail/:id*", "dest": "/detail/:id*" },
       { "src": "/cart", "dest": "/" }
     ]
   }
